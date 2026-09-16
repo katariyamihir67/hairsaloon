@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../../core/theme/app_colors.dart';
+import '../widgets/app_drawer.dart';
 
 class AiConsultationScreen extends StatefulWidget {
   const AiConsultationScreen({super.key});
@@ -33,6 +34,7 @@ class _AiConsultationScreenState extends State<AiConsultationScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.background,
+      drawer: const AppDrawer(),
       appBar: AppBar(
         title: const Text('AI Hair Consultation'),
       ),

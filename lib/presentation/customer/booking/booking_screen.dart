@@ -6,6 +6,7 @@ import '../../../core/providers/service_provider.dart';
 import '../../../core/providers/stylist_provider.dart';
 import '../../../domain/entities/service_entity.dart';
 import '../../../domain/entities/stylist_entity.dart';
+import '../../widgets/app_drawer.dart';
 
 class BookingScreen extends ConsumerStatefulWidget {
   const BookingScreen({super.key});
@@ -40,6 +41,7 @@ class _BookingScreenState extends ConsumerState<BookingScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.background,
+      drawer: const AppDrawer(),
       appBar: AppBar(
         title: const Text('Book Appointment'),
       ),

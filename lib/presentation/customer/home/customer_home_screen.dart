@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../core/providers/service_provider.dart';
 import '../../../domain/entities/service_entity.dart';
+import '../../widgets/app_drawer.dart';
 
 class CustomerHomeScreen extends ConsumerWidget {
   const CustomerHomeScreen({super.key});
@@ -24,9 +25,9 @@ class CustomerHomeScreen extends ConsumerWidget {
 
     return Scaffold(
       backgroundColor: AppColors.background,
+      drawer: const AppDrawer(),
       appBar: AppBar(
         title: const Text('Elite Salon'),
-        leading: const Icon(Icons.menu),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),

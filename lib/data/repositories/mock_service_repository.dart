@@ -7,7 +7,7 @@ class MockServiceRepository implements ServiceRepository {
     ServiceEntity(
       id: 'm1',
       name: 'Men\'s Signature Fade',
-      category: 'Haircut',
+      category: 'Haircuts and Styling',
       gender: 'Male',
       description: 'Premium fade haircut with precision styling and wash. Gives a sharp and clean look.',
       price: 1200.0,
@@ -21,7 +21,7 @@ class MockServiceRepository implements ServiceRepository {
     ServiceEntity(
       id: 'm2',
       name: 'Gentleman\'s Classic Cut',
-      category: 'Haircut',
+      category: 'Haircuts and Styling',
       gender: 'Male',
       description: 'A timeless classic scissor cut, tailored to your head shape.',
       price: 1500.0,
@@ -34,7 +34,7 @@ class MockServiceRepository implements ServiceRepository {
     ServiceEntity(
       id: 'm3',
       name: 'Luxury Beard Trim & Spa',
-      category: 'Beard',
+      category: 'Treatment and Spa',
       gender: 'Male',
       description: 'Complete beard grooming with hot towel and essential oils.',
       price: 800.0,
@@ -47,7 +47,7 @@ class MockServiceRepository implements ServiceRepository {
     ServiceEntity(
       id: 'm4',
       name: 'Buzz Cut & Line Up',
-      category: 'Haircut',
+      category: 'Haircuts and Styling',
       gender: 'Male',
       description: 'Sharp buzz cut with precise line up.',
       price: 900.0,
@@ -60,7 +60,7 @@ class MockServiceRepository implements ServiceRepository {
     ServiceEntity(
       id: 'm5',
       name: 'Men\'s Hair Spa & Massage',
-      category: 'Hair Spa',
+      category: 'Treatment and Spa',
       gender: 'Male',
       description: 'Relaxing head massage and deep conditioning spa treatment.',
       price: 1800.0,
@@ -74,7 +74,7 @@ class MockServiceRepository implements ServiceRepository {
     ServiceEntity(
       id: 'f1',
       name: 'Women\'s Signature Layer Cut',
-      category: 'Haircut',
+      category: 'Haircuts and Styling',
       gender: 'Female',
       description: 'Beautiful layered haircut with blow dry setting.',
       price: 1800.0,
@@ -88,7 +88,7 @@ class MockServiceRepository implements ServiceRepository {
     ServiceEntity(
       id: 'f2',
       name: 'Keratin Hair Spa',
-      category: 'Hair Spa',
+      category: 'Treatment and Spa',
       gender: 'Female',
       description: 'Deep conditioning keratin treatment for smooth, frizz-free hair.',
       price: 3500.0,
@@ -101,7 +101,7 @@ class MockServiceRepository implements ServiceRepository {
     ServiceEntity(
       id: 'f3',
       name: 'Balayage Color',
-      category: 'Hair Color',
+      category: 'Color Bar',
       gender: 'Female',
       description: 'Premium custom balayage color transformation.',
       price: 6000.0,
@@ -115,7 +115,7 @@ class MockServiceRepository implements ServiceRepository {
     ServiceEntity(
       id: 'f4',
       name: 'Bob Cut & Styling',
-      category: 'Haircut',
+      category: 'Haircuts and Styling',
       gender: 'Female',
       description: 'Chic bob cut with professional styling and setting.',
       price: 2000.0,
@@ -128,7 +128,7 @@ class MockServiceRepository implements ServiceRepository {
     ServiceEntity(
       id: 'f5',
       name: 'Bridal Hair Styling',
-      category: 'Styling',
+      category: 'Bridal Events',
       gender: 'Female',
       description: 'Elegant updo and bridal styling with accessories.',
       price: 5000.0,

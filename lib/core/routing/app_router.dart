@@ -10,7 +10,7 @@ import '../../presentation/admin/dashboard/admin_dashboard_screen.dart';
 import '../../presentation/auth/splash_screen.dart';
 import '../../presentation/services/services_list_screen.dart';
 import '../../presentation/services/service_detail_screen.dart';
-import '../../presentation/customer/main_layout/main_layout_screen.dart';
+import '../../presentation/customer/home/customer_home_screen.dart';
 import '../../domain/entities/service_entity.dart';
 class AppRouter {
   static final GoRouter router = GoRouter(
@@ -30,7 +30,7 @@ class AppRouter {
       ),
       GoRoute(
         path: '/customer-home',
-        builder: (context, state) => const MainLayoutScreen(),
+        builder: (context, state) => const CustomerHomeScreen(),
       ),
       GoRoute(
         path: '/booking',
