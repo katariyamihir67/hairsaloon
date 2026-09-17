@@ -49,20 +49,40 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Icon(
-                Icons.spa,
-                size: 80,
-                color: AppColors.goldAccent,
+              Container(
+                width: 130,
+                height: 130,
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  boxShadow: [
+                    BoxShadow(
+                      color: AppColors.goldAccent.withOpacity(0.35),
+                      blurRadius: 28,
+                      spreadRadius: 4,
+                    ),
+                  ],
+                  border: Border.all(
+                    color: AppColors.goldAccent.withOpacity(0.7),
+                    width: 2.5,
+                  ),
+                ),
+                child: ClipOval(
+                  child: Image.asset(
+                    'assets/images/app_logo.jpg',
+                    fit: BoxFit.cover,
+                  ),
+                ),
               ),
-              const SizedBox(height: 24),
+              const SizedBox(height: 28),
               Text(
                 'ELITE SALON',
                 style: Theme.of(context).textTheme.displayMedium?.copyWith(
                   letterSpacing: 8.0,
                   color: AppColors.goldAccent,
+                  fontWeight: FontWeight.bold,
                 ),
               ),
-              const SizedBox(height: 16),
+              const SizedBox(height: 12),
               Text(
                 'LUXURY REDEFINED',
                 style: Theme.of(context).textTheme.labelLarge?.copyWith(
